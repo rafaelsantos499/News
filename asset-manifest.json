@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rafaelsantos499/News/static/css/main.016fac29.css",
+    "main.js": "/rafaelsantos499/News/static/js/main.a4354b9c.js",
+    "static/media/error.png": "/rafaelsantos499/News/static/media/error.606423dafaeb32132c05.png",
+    "static/media/github.svg": "/rafaelsantos499/News/static/media/github.e0493221353f5e3333b986e5f4eb50b0.svg",
+    "index.html": "/rafaelsantos499/News/index.html",
+    "static/media/linkedin.svg": "/rafaelsantos499/News/static/media/linkedin.95ba3b56302d593e9cf1383947cdb4a7.svg",
+    "static/media/search.svg": "/rafaelsantos499/News/static/media/search.e2b6b5fa1d4695d1c0d6cf5a0585ecf7.svg",
+    "main.016fac29.css.map": "/rafaelsantos499/News/static/css/main.016fac29.css.map",
+    "main.a4354b9c.js.map": "/rafaelsantos499/News/static/js/main.a4354b9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.016fac29.css",
+    "static/js/main.a4354b9c.js"
+  ]
+}
