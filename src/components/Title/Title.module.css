@@ -1,0 +1,53 @@
+@import url(../../defaut.css);
+
+.title {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: animeLeft 0.3s forwards;
+  flex-wrap: wrap;
+}
+
+@keyframes animeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+.title {
+  font-family: var(--font-family-1);
+  font-size: 2.25em;
+  color: var(--color-title);
+}
+
+.headingLineBefore {
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  height: 3px;
+  margin: 0 10px 0 0;
+  flex: 1 0 10px;
+  max-width: 30px;
+  min-width: 30px;
+}
+
+.headingLineAfter {
+  background: #eaeaea;
+  background: #000;
+  height: 3px;
+  margin: 0 0 0 10px;
+  flex: 1 0 60px;
+  min-width: 30px;
+  opacity: 0.05;
+}
+
+.page {
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 760px) {
+  .title {
+    font-size: 1.7em;
+  }
+}

@@ -1,0 +1,39 @@
+.container {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 10px 0;
+  overflow: hidden;
+
+  border-radius: 5px;
+}
+
+.carrousel {
+  display: flex;
+  /* animation: teste 30s infinite; */
+}
+
+.carrousel ul {
+  transition-duration: 3s;
+}
+
+.carrousel li {
+  flex-shrink: 0;
+  font-family: var(--font-family-1);
+  font-weight: 300;
+  letter-spacing: 0.2px;
+}
+
+.carrousel li + li {
+  margin-left: 20px;
+}
+
+.carrousel li + li::before {
+  content: ' | ';
+  margin-right: 20px;
+}
+/* 
+@keyframes teste {
+  to {
+    transform: translateX(-2700px);
+  }
+} */

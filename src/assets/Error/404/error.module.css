@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  padding-top: 10rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 100px;
+}
+
+.text h1 {
+  font-size: 10rem;
+}
+
+.text h2 {
+  font-size: 3rem;
+  color: black;
+}
+
+.text p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.25rem;
+}
+
+.text a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: var(--lato);
+  border: 3px green solid;
+  padding: 10px;
+  border-radius: 15%;
+}

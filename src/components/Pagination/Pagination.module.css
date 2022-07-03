@@ -1,0 +1,60 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 50px 20px;
+}
+
+.navigationNext ,.navigationPrev  {
+  width: 60px;
+  background: none;
+  color: #525151;
+  border: 1px solid #a0a0a0;
+  cursor: pointer;
+}
+
+
+
+button:disabled,
+button[disabled]{  
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: auto;
+}
+
+.navigationPrev{
+  margin-right: 15px;
+}
+
+.navigationNext{
+  margin-left:15px ;
+}
+
+.navitionPage {
+  background: none;
+  color: #525151;
+  border: 1px solid #a0a0a0;
+ width: 25px;
+ height: 30px;
+cursor: pointer;
+transform: scale(1);
+}
+
+.navitionPage:hover{
+  transform: scale(1.1);
+}
+
+.container ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container li + li {
+  margin-left: 15px;
+}
+
+.active {
+  transform: scale(1.3);
+}

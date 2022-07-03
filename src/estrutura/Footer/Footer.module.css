@@ -1,0 +1,78 @@
+.background {
+  width: 100%;
+  /* min-height: 250px; */
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  padding-bottom: 25px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr minmax(350px, 550px);
+  padding: 0 20px;
+}
+
+@media (max-width: 40rem) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.container h1 {
+  text-align: center;
+  font-family: var(--font-family-1);
+  font-size: 1.25em;
+  color: var(--color-title);
+  margin-bottom: 25px;
+}
+
+.sports {
+  max-width: 300px;
+  padding-top: 25px;
+  margin-right: 30px;
+}
+
+@media (max-width: 40rem) {
+  .sports {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+  }
+}
+
+.container li {
+  margin-bottom: 25px;
+  color: #fff;
+  font-family: var(--font-family-1);
+  font-size: 0.9em;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+}
+
+.container li::before {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -12.5px;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0.3;
+}
+
+.slide {
+  margin-top: 25px;
+}
+
+.reseved {
+  font-family: var(--font-family-1);
+  font-size: 0.75rem;
+  margin-top: 100px;
+  max-width: 100%;
+  text-align: center;
+}

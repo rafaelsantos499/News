@@ -1,0 +1,49 @@
+@import url(../../defaut.css);
+
+.rateLimited {
+  padding: 0 20px;
+}
+
+.content {
+  position: relative;
+  z-index: -10;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.content h1 {
+  padding: 50px 0 50px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  font-size: 1.125em;
+  font-family: var(--font-family-1);
+  color: var(--color-text);
+}
+
+.socialMedia {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.socialMedia a + a {
+  margin-left: 30px;
+}
+
+.socialMedia img {
+  width: 50px;
+  transform: scale(90%);
+  transition: 0.5s;
+}
+
+.socialMedia img:hover {
+  transform: scale(100%);
+}
